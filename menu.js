@@ -70,9 +70,9 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
-let {price: 5.25, price2: 6.25}
+let { price : price2 } = pizza;
 
-console.log(pizza.price)
+console.log(price2);
 
 /*
     Fourth, and last, destructure the category
@@ -82,6 +82,9 @@ console.log(pizza.price)
 */
 
 //CODE HERE
+let { category : category2 } = pizza;
+
+console.log(category2);
 
 
 //////////////////PROBLEM 3////////////////////
@@ -97,6 +100,48 @@ console.log(pizza.price)
 */
 
 //CODE HERE
+const foodArr = [
+    {
+        name: 'Pepperoni',
+        price: 5.25,
+        category: 'entree',
+        popularity: 5,
+        rating: 5,
+        tags: ['standard', 'kid-friendly', 'popular']
+    },
+    {
+        name: 'Sausage',
+        price: 5.50,
+        category: 'entree',
+        popularity: 3,
+        rating: 4,
+        tags: ['standard', 'meat-lover', 'spicy']
+    },
+    {
+        name: 'Supreme',
+        price: 6.35,
+        category: 'entree',
+        popularity: 4,
+        rating: 4,
+        tags: ['standard', 'everything', 'filling']
+    },
+    {
+        name: 'BBQ Chicken',
+        price: 6.25,
+        category: 'entree',
+        popularity: 3,
+        rating: 4,
+        tags: ['special', 'southern', 'smokey']
+    },
+    {
+        name: 'Veggie',
+        price: 5.75,
+        category: 'entree',
+        popularity: 4,
+        rating: 5,
+        tags: ['special', 'healthy', 'fit']
+    }
+];
 
 
 
@@ -113,7 +158,9 @@ console.log(pizza.price)
 */
 
 //CODE HERE
+const filteredFood = foodArr.filter( (foodArr) => { foodArr.tags === "special";})
 
+console.log(filteredFood);
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
 
