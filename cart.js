@@ -34,9 +34,8 @@ const cart = [
 ]
 
 //CODE HERE
- const summedPrice = cart.reduce(price, currentValue) {
-    return
- }
+ const summedPrice = cart.reduce((price) => price + 0);
+ console.log(summedPrice);
 
 
 //////////////////PROBLEM 2////////////////////
