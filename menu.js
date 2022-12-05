@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+const pizza = {
+    name: 'Pepperoni',
+    price: 5.25,
+    category: 'entree',
+    popularity: 5,
+    rating: 5,
+    tags: ['special', 'kid-friendly', 'popular']
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -43,7 +50,7 @@
 */
 
 //CODE HERE
-
+console.log(pizza.popularity(2));
 
 /*
     Second, log the second tag in your pizza's
@@ -53,7 +60,7 @@
 */
 
 //CODE HERE
-
+console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
@@ -63,7 +70,9 @@
 */
 
 //CODE HERE
+let {price: 5.25, price2: 6.25}
 
+console.log(pizza.price)
 
 /*
     Fourth, and last, destructure the category
