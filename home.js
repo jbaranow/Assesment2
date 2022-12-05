@@ -51,19 +51,22 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
 const canWeDeliver = zipCode => {
-    //for (i = 0; i < deliveryAreaZipCodes.length; i++) {
-        if (zipCode = deliveryAreaZipCodes) {
+    for (i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (zipCode === deliveryAreaZipCodes[i]) {
             console.log("You're in our delivery zone!");
-        } else
+        } else {
         console.log("Sorry, we can't deliver to that address.");
+        }
     }
-//}
+}
+
+canWeDeliver(85205)
 
 
 /* 
     Problem 2 Continued
 
-    Now you're going to rewrite your function.
+    Now you're going to rewrite your function.4
 
     If you wrote `canWeDeliver` using a loop of
     some kind, write a new function (`canWeDeliverTwo`)
@@ -78,7 +81,7 @@ const canWeDeliver = zipCode => {
 */
 
 // CODE HERE
-const canWeDeliverTwo = zipCode => { console.log(deliveryAreaZipCodes.includes('85205'))}
+const canWeDeliverTwo = zipCode => { console.log(deliveryAreaZipCodes.includes(deliveryAreaZipCodes))}
 
 
 //////////////////PROBLEM 3////////////////////
@@ -115,7 +118,7 @@ const deals = [
 */
 
 //CODE HERE
-
+let newDeal = string.replace('15% Off!', '10% Off!')
 
 
 /*
