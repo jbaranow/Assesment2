@@ -158,7 +158,7 @@ const foodArr = [
 */
 
 //CODE HERE
-const filteredFood = foodArr.filter( (foodArr) => { foodArr.tags === "special";})
+const filteredFood = foodArr.filter( tag => tag.tags === "special");
 
 console.log(filteredFood);
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
