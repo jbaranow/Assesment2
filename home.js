@@ -118,7 +118,7 @@ const deals = [
 */
 
 //CODE HERE
-const change = deals.toString().replace('15% Off!', '10% Off!')
+const change = deals.replace(deals[0], '10% Off!')
 
 
 /*
