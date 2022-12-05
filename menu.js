@@ -103,7 +103,7 @@ console.log(pizza.price)
 //////////////////PROBLEM 4////////////////////
 /* 
     Let's filter the food objects according
-    to their tags.
+    to their tags. 
 
     Write a callback function below that will
     return only food objects that have a certain tag.
