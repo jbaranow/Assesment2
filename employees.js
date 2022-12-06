@@ -102,12 +102,11 @@ empOne.getSchedule();
 class Manager extends Employee {
     constructor(name, shifts, employees)
     super(name, shifts)
-    
     this.employees = employees;
 }
 
-getEmployees(){
-    console.log(`${name} manages ${employees}`;)
+getEmployees(employees){
+    console.log(`${name} manages ${employees}`);
 }
 
 
