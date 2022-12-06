@@ -104,13 +104,14 @@ class Manager extends Employee {
     super(name, shifts)
     
     this.employees = employees;
-
-    getEmployees();{
-        console.log(`${name} manages ${employees}`);
-        } 
     }
+
+    getEmployees(){
+        console.log(`${this.name} manages ${this.employees}`);
+        }
+    
 }
-const tester = new Manager('Jess', 'Todd.');
+const tester = new Manager('Jess','weekdays', 'Todd.');
 tester.getEmployees();
 
 
