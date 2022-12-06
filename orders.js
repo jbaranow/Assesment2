@@ -35,12 +35,19 @@ class Ticket {
         this.items = items;
         this.orderTime = orderTime;
         this.customerId = customerId;
+        this.status = 'queued'
     }
     //starting work on method
     updateStatus(newStatus){
-        console.log('The order for', this.customerId, 'is now' this.newStatus);
+        this.status = newStatus;
+        console.log('The order for', this.customerId, 'is now', this.newStatus);
     }
 }
+
+updateStatus('test');
+
+
+
 
 
 /*
