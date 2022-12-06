@@ -100,14 +100,19 @@ empOne.getSchedule();
 
 //CODE HERE
 class Manager extends Employee {
-    constructor(name, shifts, employees)
+    constructor(name, shifts, employees){
     super(name, shifts)
+    
     this.employees = employees;
-}
 
-getEmployees(employees){
-    console.log(`${name} manages ${employees}`);
+    getEmployees();{
+        console.log(`${name} manages ${employees}`);
+        } 
+    }
 }
+const tester = new Manager('Jess', 'Todd.');
+tester.getEmployees();
+
 
 
 /*
