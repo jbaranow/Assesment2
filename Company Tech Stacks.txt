@@ -1,0 +1,10 @@
+﻿Tech Stack that companies use that I’m interested in
+
+
+Adobe: Javascript technologies (React, Node, Angular TypeScript, ES6) Java, Spring, Docker, AWS, GCP, C++, Python.
+
+
+Blizzard: Java, HTML, CSS, JavaScript (React or Angular), C++, C, C#, HTTP, REST, TCP/IP, WebSocket, Message Queuing, AWS, FXP, Azure, iOS or Android
+
+
+Google: Python, Java, Android, Go, C++, Preact, Angular JS, Kubernetesm TensorFlow, Dart, guava, Golang
