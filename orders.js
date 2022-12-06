@@ -35,7 +35,7 @@ class Ticket {
         this.items = items;
         this.orderTime = orderTime;
         this.customerId = customerId;
-        this.status = 'queued'
+        this.status = '';
     }
     //starting work on method
     updateStatus(newStatus){
@@ -44,7 +44,7 @@ class Ticket {
     }
 }
 
-updateStatus('test');
+//updateStatus('test');
 
 
 
@@ -62,7 +62,7 @@ updateStatus('test');
 */
 
 //CODE HERE
-
+const firstTicket = new Ticket('pizza, bread, and soda', '7:03 PM', '575');
 
 /*
     Call the `updateStatus` method on
@@ -71,3 +71,4 @@ updateStatus('test');
 */
 
 //CODE HERE
+firstTicket.updateStatus('cooking');
