@@ -38,13 +38,15 @@ class Ticket {
         this.status = '';
     }
     //starting work on method
-    updateStatus(newStatus){
-        this.status = newStatus;
-        console.log(`The order for', ${this.customerId} is now ${this.newStatus}`);
+    updateStatus(){
+        //this.status = newStatus;
+        console.log(`The order for ${this.customerId} is now ${this.newStatus}`);
     }
 }
 
-//updateStatus('test');
+const tester = new Ticket('pizza', '7:03 PM', '575')
+tester.updateStatus('cooking')
+
 
 
 
